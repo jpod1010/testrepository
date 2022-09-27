@@ -23,6 +23,7 @@ bowtie2-build GCF_000008445.1_ASM844v1_genomic.fna Banthracis.index
 
 prefetch SRR2968141
 fastq-dump SRR2968141 --split-3
+reformat.sh in=SRR2968141_1.fastq in2=SRR2968141_2.fastq out=SRR2968141_interleaved.fastq.gz
 
 
 
